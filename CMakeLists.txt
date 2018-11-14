@@ -3,7 +3,7 @@ project(Box2DDestructibleTerrain)
 
 option(UNIX_LIBCXXABI_EXTRAS_ENABLED OFF)
 
-find_package(Boost 1.55 REQUIRED)
+find_package(Boost 1.68 REQUIRED)
 set(Boost_USE_STATIC_LIBS       ON)
 set(Boost_USE_MULTITHREADED     ON)
 set(Boost_USE_STATIC_RUNTIME    OFF)
